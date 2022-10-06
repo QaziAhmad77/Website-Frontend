@@ -1,0 +1,45 @@
+/* Responsiveness */
+@media screen and (max-width:1170px) {
+    #services .box {
+        margin-bottom: 20px;
+    }
+
+    #client-section {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:710px) {
+    #navbar {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #home {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 90px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .client-item {
+        padding: 6px;
+    }
+    
+}
+
+@media screen and (max-width:620px) {
+    #clients img {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
